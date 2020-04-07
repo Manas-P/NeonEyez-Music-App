@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen&display=swap"
+      rel="stylesheet"
+    />
+    <title>NeonEyez Music App</title>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <!--Header Logo-->
+        <div class="logo-container">
+          <img src="./images/logo_white.png" />
+        </div>
+        <!--Header Menu-->
+        <nav>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#play_music">Play</a></li>
+            <li><a class="nav-link" target="_blank" href="https://neoneyezofficial.wixsite.com/neoneyez">About</a></li>
+            <li><a class="nav-link" target="_blank" href="https://www.youtube.com/watch?v=SsqoDwrig-0&list=PLhRv-ygp-Cczlp-uM-3daZL701fEjW7cL">YouTube</a></li>
+            <li><a class="nav-link" href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container2img">
+        <div class="container2">
+          <div class="container2-sections">
+            <div class="container2-section1">
+              <h1>Welcome To NeonEyez Music App</h1>
+            </div>
+            <div></div>
+            <div></div>
+            <div class="container2-section4">
+              <h1>Refreshing Sounds of NeonEyez</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container 3, The Music Player-->
+      <div class="container3" id="play_music">
+
+
+
+        
+        <div class="time-select">
+          <button data-time="60">1 Minutes</button>
+          <button data-time="180" class="medium-mins">3 Minutes</button>
+          <button data-time="300" class="long-mins">5 Minutes</button>
+          <button data-time="600">10 Minutes</button>
+        </div>
+        <div class="player-container">
+          <audio class="song">
+            <source src="./sounds/Element_1.mp3" />
+          </audio>
+          <img src="./svg/play.svg" class="play"></img>
+          <svg class="track-outline" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20"/>
+          </svg>
+          <svg class="moving-outline" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20"/>
+          </svg>
+              
+          <h3 class="time-display">0:00</h3>      
+        </div>
+        <div class="sound-picker">
+          <button data-sound="./sounds/Element_1.mp3">Sound 1</button>
+          <button data-sound="./sounds/Element_2.mp3">Sound 2</button>
+          <button data-sound="./sounds/Element_3.mp3">Sound 3</button>
+          <button data-sound="./sounds/Element_4.mp3">Sound 4</button>
+        </div>
+
+
+
+
+
+
+      </div>
+
+      <div class="final-container">
+        <footer>
+          <div class="footer_logo">
+            <img src="./images/logo_white.png">
+          </div>
+          <nav>
+            <ul class="nav-linksft">
+              <li><a class="nav-linkft" target="_blank" href="https://neoneyezofficial.wixsite.com/neoneyez">About</a></li>
+              <li><a class="nav-linkft" target="_blank" href="https://www.youtube.com/watch?v=SsqoDwrig-0&list=PLhRv-ygp-Cczlp-uM-3daZL701fEjW7cL">YouTube</a></li>
+              <li><a class="nav-linkft" target="_blank" href="https://neoneyezofficial.wixsite.com/neoneyez">Official Page</a></li>
+              <li><a class="nav-linkft" href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </footer>
+        <div class="credit" align="center">
+          <p>&copy; All Sounds are made by NeonEyez <a>Privacy</a></p>
+        </div>
+      </div>
+
+
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
