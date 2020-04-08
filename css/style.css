@@ -149,7 +149,8 @@ nav {
 
 .player-container svg {
   position: absolute;
-  height: 31.25vw;
+  height: 24.739583333333332vw;
+  width: 24.739583333333332vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
@@ -167,6 +168,11 @@ nav {
 
 .play {
   cursor: pointer;
+}
+
+.player-container img {
+  height: 3.90625vw;
+  width: 3.90625vw;
 }
 
 .final-container {
