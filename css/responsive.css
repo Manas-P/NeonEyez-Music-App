@@ -19,7 +19,7 @@
 
   /* Responsive Animation */
   .nav-links {
-    position: fixed;
+    position: absolute;
     right: 0px;
     height: 100vh;
     top: 10vh;
