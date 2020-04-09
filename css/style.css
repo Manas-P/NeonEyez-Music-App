@@ -8,10 +8,12 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Sen", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Header */
