@@ -53,6 +53,22 @@ nav {
   font-size: 1.1020833333333333vw;
   color: #fff;
 }
+
+/* Navigation Button For Responsive */
+.nav_btn {
+  display: none;
+  float: right;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.nav_btn div {
+  width: 20px;
+  height: 1px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
 /* End of Header Section */
 
 .container2img {
@@ -71,6 +87,10 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+}
+
+.res {
+  display: none;
 }
 
 .container2-sections h1 {
@@ -215,7 +235,7 @@ nav {
 
 .nav-linkft {
   text-decoration: none;
-  font-size: 0.8333333333333334vw;
+  font-size: 1.0416666666666667vw;
   padding-left: 2.0833333333333335vw;
   color: #637381;
 }
@@ -225,17 +245,8 @@ nav {
 }
 
 .credit {
+  padding-top: 2.6041666666666665vw;
   padding-bottom: 2.6041666666666665vw;
-}
-
-.credit p {
-  font-size: 0.6333333333333334vw;
+  font-size: 1.0416666666666667vw;
   color: #637381;
-}
-
-.credit a {
-  font-size: 0.6333333333333334vw;
-  color: blue;
-  text-decoration: underline;
-  cursor: pointer;
 }
