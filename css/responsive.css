@@ -53,23 +53,17 @@
 
   .container2-section1 h1 {
     font-size: 25px;
-    padding-top: 60px;
+    padding-top: 110px;
     padding-left: 20px;
   }
 
   .container2-section4 h1 {
     font-size: 20px;
-    padding-top: 80px;
+    padding-top: 150px;
     padding-left: 32px;
   }
 
   .container3 {
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 59, 1) 50%,
-      rgba(0, 0, 0, 1) 100%
-    );
     display: block;
     align-items: center;
     height: auto;
