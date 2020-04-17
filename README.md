@@ -1,8 +1,10 @@
-_NeonEyez Music App_
+*NeonEyez Music App*
 
 > This is a Music App which you can play calm and refreshing 4 Sounds made by NeonEyez.
 
-**Screenshots**
+**Preview of Website**
 
 1. Preloader
-   <img src="./readme_res/preloader.gif">
+>   <img src="./readme_res/preloader.gif">
+
+2. Whole Activity
