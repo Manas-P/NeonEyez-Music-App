@@ -5,4 +5,4 @@ _NeonEyez Music App_
 **Screenshots**
 
 1. Preloader
-   <img src="./readme_res/preloader.gif">
+>   <img src="./readme_res/preloader.gif">
