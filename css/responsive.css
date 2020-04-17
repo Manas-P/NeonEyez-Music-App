@@ -1,3 +1,127 @@
+@media screen and (max-width: 700px) {
+  .preloader_icon img {
+    height: 70px;
+  }
+
+  .preloader_logo img {
+    height: 90px;
+  }
+
+  .preloader h1 {
+    font-size: 30px;
+  }
+
+  .logo-container {
+    flex: 1;
+  }
+
+  nav {
+    flex: 4;
+  }
+
+  .logo-container,
+  .nav-links {
+    padding: 30px;
+  }
+
+  .logo-container img {
+    width: 167.375px;
+    height: 35.5px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+
+  .container2img {
+    background-image: url("../images/bg_mob2.jpg");
+  }
+
+  .res {
+    display: block;
+  }
+
+  .container2-section1 h1 {
+    font-size: 30px;
+    padding-top: 175px;
+    padding-left: 10px;
+  }
+
+  .container2-section4 h1 {
+    font-size: 25px;
+    padding-top: 300px;
+    padding-left: 32px;
+  }
+
+  .container3 {
+    display: block;
+    align-items: center;
+    height: auto;
+  }
+
+  .time-select,
+  .sound-picker {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .time-select button,
+  .sound-picker button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+  }
+
+  .time-select button:hover,
+  .sound-picker button:hover {
+    box-shadow: 0 0 10px rgb(0, 47, 255), 0 0 15px rgb(0, 47, 255),
+      0 0 25px rgb(0, 47, 255);
+  }
+
+  .player-container svg {
+    height: 240px;
+    width: 240px;
+  }
+
+  .time-display {
+    font-size: 20px;
+    top: 190px;
+  }
+
+  .player-container img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .footer_logo {
+    flex: 1;
+  }
+
+  nav {
+    flex: 4;
+  }
+
+  .footer_logo img {
+    width: 167.375px;
+    height: 35.5px;
+  }
+
+  .nav-linkft {
+    font-size: 15px;
+  }
+
+  .credit {
+    padding-top: 40px;
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .preloader_icon img {
     height: 50px;
@@ -9,6 +133,14 @@
 
   .preloader h1 {
     font-size: 20px;
+  }
+
+  .logo-container {
+    flex: 1;
+  }
+
+  nav {
+    flex: 1.5;
   }
 
   .logo-container,
@@ -136,6 +268,13 @@
     height: 50px;
     padding-top: 1.5625vw;
   }
+  .footer_logo {
+    flex: 1;
+  }
+
+  nav {
+    flex: 1.5;
+  }
 
   .footer_logo img {
     width: 85.375px;
@@ -151,7 +290,7 @@
   }
 }
 
-/* Responsive Button Animation */
+/* Responsive Navigation Button Animation */
 .nav-active {
   transform: translateX(0%);
 }

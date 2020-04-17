@@ -1,3 +1,14 @@
+/*
+=============================================
+  * Author: Manas P
+  * Title: NeonEyez Music App
+  * Page: style.css
+  * Sounds in this Page is Made by NeonEyez
+  * Responsive Website
+  * Colors Used: Black, White, Blue
+=============================================
+*/
+
 /* To Remove Unwanted scrolls */
 * {
   margin: 0px;
@@ -6,7 +17,11 @@
   overflow-x: hidden;
 }
 
-/* Preloader */
+/*
+============================
+  Preloader Animation Start
+============================
+*/
 .preloader {
   position: fixed;
   background: #000;
@@ -53,6 +68,11 @@
   opacity: 0;
   pointer-events: none;
 }
+/*
+=============================
+  End of Preloader Animation
+=============================
+*/
 
 html {
   scroll-behavior: smooth;
@@ -102,6 +122,7 @@ nav {
   text-decoration: none;
   font-size: 1.1020833333333333vw;
   color: #fff;
+  cursor: pointer;
 }
 
 /* Navigation Button For Responsive */
@@ -186,6 +207,7 @@ nav {
   flex-direction: column;
   flex: 1;
 }
+
 .time-select button,
 .sound-picker button {
   color: white;
@@ -227,9 +249,11 @@ nav {
   transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
+
 .player-container svg circle {
   transition: all 0.2s ease-in-out;
 }
+
 .time-display {
   color: white;
   position: absolute;
@@ -289,6 +313,7 @@ nav {
   font-size: 1.0416666666666667vw;
   padding-left: 2.0833333333333335vw;
   color: #637381;
+  cursor: pointer;
 }
 
 .nav-linkft:hover {
