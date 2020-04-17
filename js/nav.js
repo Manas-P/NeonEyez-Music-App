@@ -16,7 +16,7 @@ const navSlide = () => {
 
     nav_btn.classList.toggle(`toggle`); //nav Button Animation
 
-    //To Prevent Scroll
+    //To Prevent Scroll for Drawer on Mobile Responsive
     nav.addEventListener(
       "touchmove",
       (nav) => {
@@ -28,3 +28,5 @@ const navSlide = () => {
 };
 
 navSlide();
+
+// !!! Button Click Active Pending

@@ -61,3 +61,10 @@ song.ontimeupdate = function () {
     play.src = "./svg/play.svg";
   }
 };
+
+// Preload
+
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preloader");
+  preload.classList.add("preload_finish");
+});

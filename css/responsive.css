@@ -1,4 +1,16 @@
 @media screen and (max-width: 550px) {
+  .preloader_icon img {
+    height: 50px;
+  }
+
+  .preloader_logo img {
+    height: 70px;
+  }
+
+  .preloader h1 {
+    font-size: 20px;
+  }
+
   .logo-container,
   .nav-links {
     padding: 20px;
@@ -21,7 +33,7 @@
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 100vh;
+    height: 90vh;
     top: 10vh;
     background-color: #000;
     display: flex;
@@ -36,7 +48,7 @@
 
   .nav-links li {
     opacity: 1;
-    margin-top: -50px;
+    margin-top: -25px;
   }
 
   .nav_btn {
@@ -54,8 +66,8 @@
 
   .container2-section1 h1 {
     font-size: 25px;
-    padding-top: 110px;
-    padding-left: 20px;
+    padding-top: 105px;
+    padding-left: 10px;
   }
 
   .container2-section4 h1 {
